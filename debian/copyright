@@ -1,0 +1,20 @@
+This package was debianized by Cyril Bouthors <cyril@boutho.rs> on
+Tue Apr 15 17:16:07 CEST 2014
+
+It was downloaded from <https://github.com/jamesc/nagios-plugins-rabbitmq>
+
+Upstream Author:
+
+    James Casey <http://jamesc.net/>
+
+Copyright:
+
+    <Copyright 2010, Platform 14>
+
+License:
+
+The original tarball is licensed under the Apache License Version 2.0, January
+2004, see `/usr/share/common-licenses/Apache-2.0`.
+
+The Debian packaging is (C) 2014, Cyril Bouthors <cyril@boutho.rs> and is
+licensed under the GPL, see `/usr/share/common-licenses/GPL'.

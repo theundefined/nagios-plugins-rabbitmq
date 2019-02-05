@@ -1,0 +1,64 @@
+nagios-plugins-rabbitmq (1:2.3.0-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+
+ -- Andrzej Dopierala <undefine@aramin.net>  Thu, 05 Feb 2019 12:43:00 +0100
+
+nagios-plugins-rabbitmq (1:1.2.0-2.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Change Nagios::Plugin with Monitoring::Plugin (Closes: #806228)
+  * Replace Depends on libnagios-plugin-perl with libmonitoring-plugin-perl
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 08 Dec 2016 12:41:43 +0100
+
+nagios-plugins-rabbitmq (1:1.2.0-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix "should depend on libjson-perl":
+    add libjson-perl to Depends.
+    (Closes: #758723)
+  * Also add libwww-perl and liburi-perl to Depends, which are also required.
+  * Fix "FTBFS with perl 5.22 (Module::Build)":
+    add libmodule-build-perl to Build-Depends.
+    (Closes: #789637)
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 25 Jul 2015 20:50:27 +0200
+
+nagios-plugins-rabbitmq (1:1.2.0-2) unstable; urgency=medium
+
+  * debian/postrm: reload nagios-nrpe-server only if needed (closes:
+    #749232).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Wed, 16 Jul 2014 15:48:54 +0200
+
+nagios-plugins-rabbitmq (1:1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Tue, 08 Jul 2014 11:30:58 +0200
+
+nagios-plugins-rabbitmq (1.1.0-4) unstable; urgency=medium
+
+  * debian/postinst: reload nagios-nrpe-server if needed (closes:
+    #749232).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Tue, 24 Jun 2014 16:14:10 +0200
+
+nagios-plugins-rabbitmq (1.1.0-3) unstable; urgency=medium
+
+  * Fixed debian/copyright.
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Thu, 17 Apr 2014 11:17:04 +0200
+
+nagios-plugins-rabbitmq (1.1.0-2) unstable; urgency=medium
+
+  * Fixed queue checking
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Wed, 16 Apr 2014 15:22:22 +0200
+
+nagios-plugins-rabbitmq (1.1.0-1) unstable; urgency=low
+
+  * Initial release (closes: #744861).
+
+ -- Cyril Bouthors <cyril@bouthors.org>  Tue, 15 Apr 2014 17:13:13 +0200

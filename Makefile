@@ -13,5 +13,9 @@ install:
 	cp scripts/* $(DESTDIR)/usr/lib/nagios/plugins-rabbitmq/
 	rsync -a etc $(DESTDIR)
 
-test:
-	./Build test
+deb:
+	docker build -t builder .
+	docker run -it -v "$(pwd)/out":/out builder
+
+#test:
+#	./Build test
